@@ -10,4 +10,8 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.logo {
+  margin: 5rem 0;
+}
 /*# sourceMappingURL=calculator.css.map */
