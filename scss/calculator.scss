@@ -1,3 +1,5 @@
+@use 'variables';
+
 .container {
     width: 100%;
     display: flex;
@@ -11,7 +13,7 @@
 }
 
 .card {
-    background-color: $white;
+    background-color: variables.$white;
     width: 100%;
     border-radius: 2.5rem;
 
@@ -19,15 +21,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-
+    gap: 3rem;
     padding: 2.5rem;
 
     .input {
         width: 100%;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 3rem;
 
         .label-wrapper {
             display: flex;
@@ -36,13 +37,13 @@
             padding: 0.6rem 0;
 
             label {
-                color: $dark-grayish-cyan-1;
+                color: variables.$dark-grayish-cyan-1;
                 font-size: 1.5rem;
                 font-weight: 700;
             }
 
             .error-msg {
-                color: indianred;
+                color: variables.$warning-color;
                 font-size: 1.5rem;
                 font-weight: 700;
             
@@ -50,7 +51,7 @@
         }
 
         .input-text {
-            background-color: $light-grayish-cyan-2;
+            background-color: variables.$light-grayish-cyan-2;
             border: none;
             width: 100%;
             border-radius: 0.5rem;
@@ -58,13 +59,13 @@
             font-size: 2.4rem;
             font-weight: 700;
             text-align: right;
-            color: $very-dark-cyan;
+            color: variables.$very-dark-cyan;
             padding: 0.5rem 2.4rem;
 
 
             &:focus {
                 outline: none;
-                border: 2px solid $cyan;
+                border: 2px solid variables.$cyan;
             }
 
 
@@ -76,8 +77,44 @@
             img {
                 position: absolute;
                 left: 2.4rem;
-                top: 1rem;
+                top: 1.5rem;
             }
+        }
+
+        .btn-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding-top: 1.2rem;
+
+            .btn {
+                width: 46%;
+                text-align: center;
+                background-color: variables.$very-dark-cyan;
+                color: variables.$white;
+                font-size: 2rem;
+                font-weight: 700;
+                border-radius: 0.5rem;
+                padding: 0.6rem 0;
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    background-color: variables.$hover-color;
+                }
+            }
+
+            .btn-active {
+                background-color: variables.$cyan;
+                color: variables.$very-dark-cyan;
+            }
+
+            .input-text {
+                width: 46%;
+            }
+
         }
 
 
@@ -86,7 +123,57 @@
     }
 
     .output {
-        background-color: $very-dark-cyan;
+        background-color: variables.$very-dark-cyan;
         width: 100%;
+        border-radius: 1.5rem;
+        padding: 2.5rem;
+
+        .line-wrapper {
+            .line-output {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 1.4rem 0 2.4rem 0;
+
+                .title {
+                    color: variables.$white;
+                    font-weight: 700;
+                    font-size: 1.6rem;
+
+                }
+
+                .desc {
+                    color: variables.$dark-grayish-cyan-2;
+                    font-weight: 700;
+                    font-size: 1.3rem;
+                }
+
+                .value {
+                    color: variables.$cyan;
+                    font-weight: 700;
+                    font-size: 3rem;
+                }
+
+            }
+        }
+
+        .btn {
+            width: 100%;
+            background-color: variables.$cyan;
+            text-transform: uppercase;
+            text-align: center;
+            color: variables.$very-dark-cyan;
+            font-size: 2rem;
+            font-weight: 700;
+            border-radius: 0.5rem;
+            padding: 1rem 0;
+            margin-top: 3.4rem;
+            cursor: pointer;
+            transition: all 0.5s ease;
+
+            &:hover {
+                background-color: variables.$hover-color;
+            }
+        }
     }
 }
