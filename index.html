@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -28,29 +28,28 @@
                         <label for="bill">Bill</label>
                     </div>
 
-                    <div class="bill-wrapper">
-                        <input class="bill-text" type="text" name="bill" id="bill" placeholder="0.0">
+                    <div class="input-wrapper">
+                        <input class="input-text" type="text" name="bill" id="bill" placeholder="0.0">
                         <img src="./images/icon-dollar.svg" alt="dollar-icon">
                     </div>
                 </div>
-            </div>
-
-            <div class="tip-calculator">
-                <div class="label-wrapper">
-                    <label for="tip"> Select Tip % </label>
-                </div>
-                <div class="people-container">
-                    <div class="label-wrapper">
-                        <label for="people">Number of People</label>
-                        <div class="error-msg">Can't be zero</div>
-                    </div>
                 
-                    <div class="people-wrapper">
-                        <input class="people-text" type="text" name="people" id="people" placeholder="1">
-                        <img src="./images/icon-person.svg" alt="person-icon">
+                <div class="tip-calculator">
+                    <div class="label-wrapper">
+                        <label for="tip"> Select Tip % </label>
+                    </div>
+                    <div class="people-container">
+                        <div class="label-wrapper">
+                            <label for="people">Number of People</label>
+                            <div class="error-msg">Can't be zero</div>
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <input class="input-text" type="text" name="people" id="people" placeholder="1">
+                            <img src="./images/icon-person.svg" alt="person-icon">
+                        </div>
                     </div>
                 </div>
-
             </div>
             <div class="people-container">
                 Number of People
@@ -60,11 +59,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-    
-
 </body>
 </html>
+
