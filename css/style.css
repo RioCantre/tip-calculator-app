@@ -28,7 +28,8 @@ body {
 .card {
   background-color: white;
   width: 100%;
-  border-radius: 2.5rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,6 +75,9 @@ body {
   outline: none;
   border: 2px solid #26c0ab;
 }
+.card .input ::placeholder {
+  color: #5e7a7d;
+}
 .card .input .input-wrapper {
   position: relative;
 }
@@ -87,7 +91,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2rem;
   padding-top: 1.2rem;
 }
 .card .input .btn-wrapper .btn {
@@ -155,6 +159,50 @@ body {
 }
 .card .output .btn:hover {
   background-color: #a1e8df;
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 64%;
+    flex-direction: row;
+    border-radius: 2.5rem;
+    align-items: stretch;
+    padding: 3.4rem;
+    gap: 1.5rem;
+  }
+  .card .input {
+    width: 105%;
+    padding: 0 3.5rem 1.5rem 1.5rem;
+  }
+  .card .input .label-wrapper {
+    padding: 1rem 0;
+  }
+  .card .input .btn-wrapper {
+    gap: 1.3rem;
+  }
+  .card .input .btn-wrapper .btn {
+    width: 31%;
+  }
+  .card .input .btn-wrapper .input-text {
+    width: 31%;
+  }
+  .card ::placeholder {
+    color: #5e7a7d;
+    font-size: 19px;
+  }
+  .card .output {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  .card .output .line-wrapper .line-output {
+    margin: 0.5rem 0 2.4rem 0;
+  }
+  .card .output .line-wrapper .line-output .value {
+    font-size: 4.6rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,8 @@
 .card {
     background-color: variables.$white;
     width: 100%;
-    border-radius: 2.5rem;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
 
     display: flex;
     flex-direction: column;
@@ -71,6 +72,10 @@
 
         }
 
+        ::placeholder {
+                color: variables.$dark-grayish-cyan-1;
+        }
+
         .input-wrapper {
             position: relative;
 
@@ -86,7 +91,7 @@
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 1.5rem;
+            gap: 2rem;
             padding-top: 1.2rem;
 
             .btn {
