@@ -14,7 +14,7 @@ User's flow:
 
 ## Demo 
 
-![TipCalculator](tipCalculator.gif)
+![TipCalculator](TipCalculator.gif)
 
 ## Tech
 
