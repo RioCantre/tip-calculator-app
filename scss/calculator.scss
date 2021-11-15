@@ -41,13 +41,19 @@
                 color: variables.$dark-grayish-cyan-1;
                 font-size: 1.5rem;
                 font-weight: 700;
+                
             }
 
             .error-msg {
                 color: variables.$warning-color;
                 font-size: 1.5rem;
                 font-weight: 700;
-            
+                opacity: 0;
+            }
+
+            .show-error-msg {
+                transition: opacity 1s ease-in-out;
+                opacity: 1;
             }
         }
 
@@ -68,7 +74,6 @@
                 outline: none;
                 border: 2px solid variables.$cyan;
             }
-
 
         }
 
@@ -119,12 +124,7 @@
             .input-text {
                 width: 46%;
             }
-
         }
-
-
-
-
     }
 
     .output {

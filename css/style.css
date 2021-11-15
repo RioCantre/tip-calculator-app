@@ -58,6 +58,11 @@ body {
   color: #e17456;
   font-size: 1.5rem;
   font-weight: 700;
+  opacity: 0;
+}
+.card .input .label-wrapper .show-error-msg {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
 }
 .card .input .input-text {
   background-color: #f4fafa;
