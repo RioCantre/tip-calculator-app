@@ -1,5 +1,8 @@
 @use 'variables';
 @media screen and (min-width: 1440px){
+    .container {
+        margin-top: 150px;
+    }
     .card {
         width: 64%;
         flex-direction: row;

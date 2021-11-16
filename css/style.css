@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .logo {
@@ -167,6 +168,10 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .container {
+    margin-top: 150px;
+  }
+
   .card {
     width: 64%;
     flex-direction: row;

@@ -2,7 +2,6 @@
 ### A Frontend Mentor Challenge
 
 
-
 ## Brief
 Build the app according to the given design. Choose specific tools that is handy and customized the design freely.
 
@@ -12,9 +11,12 @@ User's flow:
 - Calculate the correct tip and total cost of the bill per person
 
 
-## Demo 
+## Screenshot
 
-![TipCalculator](TipCalculator.gif)
+![TipCalculator](desktop-preview.jpg)
+
+
+- [View Live Demo](https://riocantre.github.io/tip-calculator-app/)
 
 ## Tech
 
@@ -26,3 +28,5 @@ User's flow:
 ## Credits
 
 - [Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+
+
