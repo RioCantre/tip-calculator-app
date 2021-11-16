@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin: auto;
 }
 
 .logo {
@@ -168,12 +168,59 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    margin-top: 150px;
+  body {
+    margin-top: 2%;
   }
 
   .card {
-    width: 64%;
+    width: 930px;
+    flex-direction: row;
+    border-radius: 2.5rem;
+    align-items: stretch;
+    padding: 3.4rem;
+    gap: 1.5rem;
+  }
+  .card .input {
+    width: 105%;
+    padding: 0 3.5rem 1.5rem 1.5rem;
+  }
+  .card .input .label-wrapper {
+    padding: 1rem 0;
+  }
+  .card .input .btn-wrapper {
+    gap: 1.3rem;
+  }
+  .card .input .btn-wrapper .btn {
+    width: 31%;
+  }
+  .card .input .btn-wrapper .input-text {
+    width: 31%;
+  }
+  .card ::placeholder {
+    color: #5e7a7d;
+    font-size: 19px;
+  }
+  .card .output {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  .card .output .line-wrapper .line-output {
+    margin: 0.5rem 0 2.4rem 0;
+  }
+  .card .output .line-wrapper .line-output .value {
+    font-size: 4.6rem;
+  }
+}
+@media screen and (min-width: 1090px) {
+  body {
+    margin-top: 2%;
+  }
+
+  .card {
+    width: 950px;
     flex-direction: row;
     border-radius: 2.5rem;
     align-items: stretch;

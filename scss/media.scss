@@ -1,10 +1,10 @@
 @use 'variables';
 @media screen and (min-width: 1440px){
-    .container {
-        margin-top: 150px;
+    body {
+        margin-top: 2%;
     }
     .card {
-        width: 64%;
+        width: 930px;
         flex-direction: row;
         border-radius: 2.5rem;
         align-items: stretch;
@@ -58,3 +58,63 @@
         }
     }
 }
+
+@media screen and (min-width: 1090px) {
+    body {
+        margin-top: 2%;
+    }
+    .card {
+        width: 950px;
+        flex-direction: row;
+        border-radius: 2.5rem;
+        align-items: stretch;
+        padding: 3.4rem;
+        gap: 1.5rem;
+
+
+        .input {
+            width: 105%;
+            padding: 0 3.5rem 1.5rem 1.5rem;
+
+            .label-wrapper {
+                padding: 1rem 0;
+            }
+
+            .btn-wrapper {
+                gap: 1.3rem;
+                .btn {
+                    width: 31%;
+                    
+                }
+
+                .input-text {
+                    width: 31%;
+                }
+            }
+
+        }
+        ::placeholder {
+            color: variables.$dark-grayish-cyan-1;
+            font-size: 19px;
+        }
+
+        .output {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 4rem;
+
+            .line-wrapper {
+                .line-output {
+                    margin: 0.5rem 0 2.4rem 0;
+
+                    .value {
+                        font-size: 4.6rem;
+                    }
+                }
+
+            }
+        }
+    }
+}   
