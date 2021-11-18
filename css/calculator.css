@@ -4,12 +4,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 200px;
 }
 
 .logo {
   margin: 5rem 0 3.5rem 0;
+  margin-bottom: 8rem;
 }
 
 .card {
@@ -22,7 +23,7 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding: 2.5rem;
+  padding: 3.5rem;
 }
 .card .input {
   width: 100%;
