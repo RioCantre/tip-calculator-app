@@ -69,6 +69,7 @@
 }
 .card .input ::placeholder {
   color: #547878;
+  font-size: 2rem;
 }
 .card .input .input-wrapper {
   position: relative;

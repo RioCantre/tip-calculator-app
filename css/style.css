@@ -84,6 +84,7 @@ body {
 }
 .card .input ::placeholder {
   color: #547878;
+  font-size: 2rem;
 }
 .card .input .input-wrapper {
   position: relative;
@@ -195,7 +196,7 @@ body {
   }
   .card ::placeholder {
     color: #5e7a7d;
-    font-size: 19px;
+    font-size: 2rem;
   }
   .card .output {
     width: 95%;

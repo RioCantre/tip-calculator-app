@@ -25,7 +25,7 @@
   }
   .card ::placeholder {
     color: #5e7a7d;
-    font-size: 19px;
+    font-size: 2rem;
   }
   .card .output {
     width: 95%;
