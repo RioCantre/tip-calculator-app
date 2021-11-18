@@ -1,8 +1,8 @@
 @use 'variables';
+
+
 @media screen and (min-width: 1440px){
-    body {
-        margin-top: 2%;
-    }
+    
     .card {
         width: 930px;
         flex-direction: row;
@@ -60,9 +60,9 @@
 }
 
 @media screen and (min-width: 1090px) {
-    body {
-        margin-top: 2%;
-    }
+  body {
+      margin-top: 100px;
+  }
     .card {
         width: 950px;
         flex-direction: row;
@@ -70,7 +70,6 @@
         align-items: stretch;
         padding: 3.4rem;
         gap: 1.5rem;
-
 
         .input {
             width: 105%;

@@ -1,8 +1,4 @@
 @media screen and (min-width: 1440px) {
-  body {
-    margin-top: 2%;
-  }
-
   .card {
     width: 930px;
     flex-direction: row;
@@ -47,7 +43,7 @@
 }
 @media screen and (min-width: 1090px) {
   body {
-    margin-top: 2%;
+    margin-top: 100px;
   }
 
   .card {

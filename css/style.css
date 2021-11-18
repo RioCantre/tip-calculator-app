@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
+  margin-top: 200px;
 }
 
 .logo {
@@ -168,10 +168,6 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  body {
-    margin-top: 2%;
-  }
-
   .card {
     width: 930px;
     flex-direction: row;
@@ -216,7 +212,7 @@ body {
 }
 @media screen and (min-width: 1090px) {
   body {
-    margin-top: 2%;
+    margin-top: 100px;
   }
 
   .card {
