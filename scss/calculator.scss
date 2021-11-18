@@ -8,6 +8,7 @@
     justify-content: center;
     flex-direction: column; 
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .logo {
@@ -82,7 +83,7 @@
         }
 
         ::placeholder {
-                color: variables.$dark-grayish-cyan-1;
+                color: variables.$placeholder-color;
         }
 
         .input-wrapper {
