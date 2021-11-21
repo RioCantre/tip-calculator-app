@@ -20,6 +20,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 200px;
 }
 
 .logo {
