@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Space Mono", monospace;
   background-color: #c5e4e7;
+  margin: 0;
 }
 
 .container {
@@ -19,13 +20,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
 }
 
 .logo {
   margin: 5rem 0 3.5rem 0;
   margin-bottom: 8rem;
-  margin-top: 0;
 }
 
 .card {
