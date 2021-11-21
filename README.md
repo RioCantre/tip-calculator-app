@@ -14,6 +14,7 @@ User's flow:
 ## Screenshot
 
 ![TipCalculator](desktop-preview.jpg)
+![TipCalculator](mobile-design.jpg)
 
 
 - [View Live Demo](https://riocantre.github.io/tip-calculator-app/)
