@@ -11,23 +11,27 @@ User's flow:
 - Calculate the correct tip and total cost of the bill per person
 
 
-## Screenshot
-
-![TipCalculator](desktop-preview.jpg)
-![TipCalculator](mobile-design.jpg)
-
-
-- [View Live Demo](https://riocantre.github.io/tip-calculator-app/)
-
 ## Tech
 
 - HTML
 - CSS
 - SaSS
 - JavasScript
+## Screenshot
+
+![TipCalculator](desktop-preview.jpg)
+![TipCalculator](mobile-design.jpg)
+
+
+### [View Live](https://riocantre.github.io/tip-calculator-app/)
+
 
 ## Credits
+- [Frontend Mentor](https://www.frontendmentor.io/solutions/tip-calculator-app-iLKPRtEyd)
 
-- [Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+<hr>
+
+### ✨ [Portfolio Preview](https://github.com/RioCantre/rioc-portfolio/blob/main/README.md) 
+
 
 
